@@ -1,6 +1,5 @@
 import React from "react"
 import logo from "../assets/LogoWhite.png"
-import "../index.css"
 
 export const Logo = () => (
     <div className="logo">

@@ -1,6 +1,6 @@
 import React from "react"
-import "../assets/White.png"
+import iPhone from "../assets/iPhone.png"
 
 export const AppPreview = () => (
-    <img src="../assets/White.png" alt="app-preview"/>
+    <img syleName="app_preview container" src={iPhone} alt="app-preview"/>
 )
