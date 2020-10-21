@@ -14,8 +14,22 @@ code {
 }
 
 .container {
-  width: 1200px;
   margin: 0 200px 0 200px;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  padding-top: 30px;
+  
+} 
+
+.logo {
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .logo img {
@@ -23,21 +37,22 @@ code {
   height: 50px;
 }
 
-.header {
-  display: flex;
-  background-color: teal;
+.logo h1 {
+  color: #ffffff;
 }
 
 .link {
   color: #ffffff;
   text-decoration: none;
+  margin-right: 60px;
+  font-size: 25px;
+  filter: drop-shadow(0 0 5 black);
 }
 
-.logo {
-  margin: 25px 0 0 100px;
+.navbar {
   display: flex;
   align-items: center;
+  justify-items: center;
   flex-direction: row;
+  margin-left: auto; /* fix this shit to flex */
 }
-
-

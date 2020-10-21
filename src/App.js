@@ -1,11 +1,16 @@
 import React from 'react';
-import { Logo } from "./components/Logo"
-import { Header } from "./components/Header"
 import './App.css';
+import { Header } from "./components/Header"
+import { Background } from "./components/Background" 
+import { AppPreview } from "./components/AppPreview"
 
 function App() {
   return (
-    <Header/>
+    <div>
+      <Background />
+      <Header />
+      <AppPreview />
+    </div>
   );
 }
 
