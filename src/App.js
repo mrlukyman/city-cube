@@ -1,11 +1,18 @@
 import React from 'react';
-import { Logo } from "./components/Logo"
+import { Features } from "./components/Features"
 import { Header } from "./components/Header"
-import './App.css';
+import { Background } from "./components/Background" 
+import { AppPreview } from "./components/AppPreview"
+import "./index.css"
 
 function App() {
   return (
-    <Header/>
+    <div>
+      <Features />
+      <Background />
+      <Header />    {/*  container medzi componenty ? */}
+      <AppPreview />
+    </div>
   );
 }
 
