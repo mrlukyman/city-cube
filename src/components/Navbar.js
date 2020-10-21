@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "./Link"
 
+
 export const Navbar = () => (
     <nav className="navbar">
         <Link section="Home" label="Home"/>
