@@ -8,10 +8,10 @@ import "./index.css"
 function App() {
   return (
     <div>
-      <Features />
       <Background />
       <Header />    {/*  container medzi componenty ? */}
       <AppPreview />
+      <Features />
     </div>
   );
 }
