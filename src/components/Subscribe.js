@@ -1,13 +1,11 @@
 import React from "react"
-import Content from '../data/Feature.json'
-import iPhone from "../assets/iPhone.png"
+import Content from '../data/Subscribe.json'
 import "../index.css"
 
-export const Features = () => (
+export const Subscribe = (props) => (
     <div>
     {Content.map((contentDetail, index) => {
         return <div>
-            <img className="app_preview container" src={iPhone} alt="app-preview"/>
             <h2>{contentDetail.title}</h2>
             <p>{contentDetail.content}</p>
         </div>
@@ -15,4 +13,4 @@ export const Features = () => (
     </div>
 )
 
-export default Features
+export default Subscribe
