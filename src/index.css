@@ -66,3 +66,7 @@ code {
   align-items: center;
   flex-direction: row;
 }
+
+.app_preview {
+  height: 400px;
+}
