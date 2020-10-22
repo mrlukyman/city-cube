@@ -11,5 +11,12 @@
         "title": "This is JSON headline 2",
         "content": "This is JSON content 2",
         "slug": "hello-world" 
+    },
+
+    {
+        "id": 3,
+        "title": "This is JSON headline 2",
+        "content": "This is JSON content 2",
+        "slug": "hello-world" 
     }
 ]
