@@ -1,9 +1,11 @@
 import React from "react"
 import Content from '../data/Content.json'
 import "../index.css"
+import { AppPreview } from "./AppPreview"
 
 export const Features = (props) => (
-    <div>
+    <div className="container features">
+        <AppPreview />
     {Content.map((contentDetail, index) => {
         return <div>
             <h1>{contentDetail.title}</h1>

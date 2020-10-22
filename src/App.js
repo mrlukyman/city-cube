@@ -2,7 +2,7 @@ import React from 'react';
 import { Features } from "./components/Features"
 import { Header } from "./components/Header"
 import { Background } from "./components/Background" 
-import { AppPreview } from "./components/AppPreview"
+import { UpperMobileSection } from './components/UpperMobileSection';
 import "./index.css"
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div>
       <Background />
       <Header />    {/*  container medzi componenty ? */}
-      <AppPreview />
+      <UpperMobileSection />
       <Features />
     </div>
   );

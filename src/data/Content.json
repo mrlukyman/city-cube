@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "title": "This is JSON headline",
-        "content": "This is JSON content",
+        "title": "This is JSON headline 1",
+        "content": "This is JSON content 1",
         "slug": "hello-world"
     },
 
@@ -10,6 +10,13 @@
         "id": 2,
         "title": "This is JSON headline 2",
         "content": "This is JSON content 2",
+        "slug": "hello-world"
+    },
+
+    {
+        "id": 3,
+        "title": "This is JSON headline 3",
+        "content": "This is JSON content 3",
         "slug": "hello-world" 
     }
 ]
