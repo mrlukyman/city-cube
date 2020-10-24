@@ -1,18 +1,19 @@
 import React from "react"
-import Content from '../data/Content.json'
-import "../index.css"
+import styled from "styled-components"
+import { Container } from "./common/Container"
 import { AppPreview } from "./AppPreview"
+import { FeaturesText } from "./FeaturesText"
+
+const Wrapper = styled(Container)`
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+`
 
 export const Features = (props) => (
-    <div className="container features">
-        <AppPreview />
-    {Content.map((contentDetail, index) => {
-        return <div>
-            <h1>{contentDetail.title}</h1>
-            <p>{contentDetail.content}</p>
-        </div>
-    })}
-    </div>
+    <Wrapper>
+        <FeaturesText />
+        <AppPreview size="small" order={props.order}/>
+    </Wrapper>
 )
-
-export default Features
