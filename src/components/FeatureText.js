@@ -15,7 +15,7 @@ const Wrapper = styled.div`
 `
 
 
-export const FeaturesText = () => (
+export const FeatureText = () => (
     Content.map((contentDetail, index) => (
         <Wrapper>
             <SmallerHeading>{contentDetail.title}</SmallerHeading>
