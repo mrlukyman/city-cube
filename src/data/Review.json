@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "title": "John Gruber, Daring Fireball",
+        "content": "Wherever some that and kiwi that well dolphin alas this wantonly jeepers jeepers the mindfully one aside canny one preparatory up less therefore hello oh amid goodness.",
+        "slug": "hello-world"
+    },
+
+    {
+        "id": 2,
+        "title": "Federico Viticci, MacStories",
+        "content": "Wherever some that and kiwi that well dolphin alas this wantonly jeepers jeepers the mindfully one aside canny one preparatory up less therefore hello oh amid goodness.",
+        "slug": "hello-world" 
+    }
+]
