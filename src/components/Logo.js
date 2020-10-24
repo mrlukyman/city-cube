@@ -1,7 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 import logo from "../assets/LogoWhite.png"
-import { Heading } from "./common/Heading"
 
 const Wrapper = styled.div`
     color: white;

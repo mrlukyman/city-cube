@@ -3,15 +3,15 @@ import { Header } from "./components/Header"
 import { Background } from "./components/Background" 
 import { UpperMobileSection } from './components/UpperMobileSection';
 import "./index.css"
-import { Features } from './components/Features';
+import { Feature } from './components/Feature';
 
 function App() {
   return (
     <div>
       <Background />
-      <Header />    {/*  container medzi componenty ? */}
+      <Header />
       <UpperMobileSection />
-      <Features />
+      <Feature />
     </div>
   );
 }
