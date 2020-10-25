@@ -24,11 +24,11 @@ export const Feature = () => (
     <Wrapper>
         <FeatureWrapper direction="normal" >
             <FeatureText />
-            <AppPreview size="small" />
+            <AppPreview screen="screen2" size="small" />
         </FeatureWrapper>
             <FeatureWrapper direction="reversed" >
                 <FeatureText />
-                <AppPreview size="small" />
+                <AppPreview screen="screen3" size="small" />
             </FeatureWrapper>
     </Wrapper>
 )

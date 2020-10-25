@@ -1,6 +1,14 @@
 import React from "react"
 import styled from "styled-components"
-import iPhone from "../assets/Screen1.png"
+import Screen1 from "../assets/Screen1.png"
+import Screen2 from "../assets/Screen2.png"
+import Screen3 from "../assets/Screen3.png"
+
+const screen = {
+    screen1: Screen1,
+    screen2: Screen2,
+    screen3: Screen3
+}
 
 const size = {
     normal: "23.75em",
@@ -15,7 +23,7 @@ const Image = styled.img`
 `
 
 export const AppPreview = (props) => (
-    <Image size={props.size} src={iPhone} alt="App Preview"/>
+    <Image size={props.size} src={screen[props.screen]} alt="App Preview"/>
 )
 
 // TODO make a phone show up animation

@@ -12,7 +12,7 @@ const Wrapper = styled(Container)`
 
 export const UpperMobileSection = () => (
     <Wrapper>
-        <AppPreview size="normal" />
+        <AppPreview screen="screen1" size="normal" />
         <MainText />
     </Wrapper>
 )
