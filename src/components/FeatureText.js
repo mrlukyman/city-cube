@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { SmallerHeading } from "./common/SmallerHeading"
-import Content from '../data/Content.json'
+import Content from '../data/Content'
 import { Paragraph } from "./common/Paragraph"
 
 const Wrapper = styled.div`
@@ -10,7 +10,7 @@ const Wrapper = styled.div`
 
 
 export const FeatureText = () => (
-    Content.map((contentDetail, index) => (
+    Content.features.map((contentDetail, index) => (
         <Wrapper>
             <SmallerHeading>{contentDetail.title}</SmallerHeading>
             <Paragraph>{contentDetail.content}</Paragraph>
