@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
-import { Container } from "./common/Container"
 import { AppPreview } from "./AppPreview"
+import { Container } from "./common/Container"
 import { FeatureText } from "./FeatureText"
 
 const direction = {
@@ -10,25 +10,15 @@ const direction = {
 }
 
 const Wrapper = styled(Container)`
-    flex-wrap: wrap;
-`
-
-const FeatureWrapper = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: ${(props) => direction[props.direction]};
 `
 
-export const Feature = () => (
-    <Wrapper>
-        <FeatureWrapper direction="normal" >
-            <FeatureText />
-            <AppPreview screen="screen2" size="small" />
-        </FeatureWrapper>
-            <FeatureWrapper direction="reversed" >
-                <FeatureText />
-                <AppPreview screen="screen3" size="small" />
-            </FeatureWrapper>
+export const Feature = (props) => (
+    <Wrapper direction={props.direction}>
+        <FeatureText />
+        <AppPreview screen={props.screen} size="small" />
     </Wrapper>
 )

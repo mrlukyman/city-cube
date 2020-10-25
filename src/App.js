@@ -14,7 +14,8 @@ function App() {
       <Background />
       <Header />
       <UpperMobileSection />
-      <Feature />
+      <Feature screen="screen2" />
+      <Feature direction="reversed" screen="screen3" />
       <Review />
       <Subscribe />
       <Footer />
