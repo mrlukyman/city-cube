@@ -7,17 +7,11 @@ const size = {
     small: "18.75em"
 }
 
-const order = {
-    left: "1",
-    right: "2"
-}
-
 const Image = styled.img`
     display: flex;
     width: ${(props) => size[props.size]};
     justify-content: flex-end;
-    padding-top: 40px;
-    order: ${(props) => order[props.order]};  
+    padding-top: 40px; 
 `
 
 export const AppPreview = (props) => (
