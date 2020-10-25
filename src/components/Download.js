@@ -12,5 +12,3 @@ export const Download = (props) => (
     })}
     </div>
 )
-
-export default Download

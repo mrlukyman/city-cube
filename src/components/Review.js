@@ -12,5 +12,3 @@ export const Review = (props) => (
     })}
     </div>
 )
-
-export default Review

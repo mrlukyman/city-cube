@@ -8,9 +8,7 @@ export const Subscribe = (props) => (
         return <div>
             <h2>{contentDetail.title}</h2>
             <p>{contentDetail.content}</p>
-        </div>
+            </div>
     })}
     </div>
 )
-
-export default Subscribe

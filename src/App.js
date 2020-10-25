@@ -5,7 +5,7 @@ import { Review } from "./components/Review"
 import { UpperMobileSection } from './components/UpperMobileSection';
 import "./index.css"
 import { Subscribe } from './components/Subscribe';
-import Footer from './components/Footer';
+import { Footer } from './components/Footer';
 import { Feature } from './components/Feature';
 
 function App() {
