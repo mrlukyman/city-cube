@@ -1,15 +1,9 @@
 [
     {
         "id": 1,
-        "title": "This is JSON headline",
-        "content": "This is JSON content",
-        "slug": "hello-world"
-    },
+        "title": "Cool Feature 1",
+        "content": "Wherever some that and kiwi that well dolphin alas this wantonly jeepers jeepers the mindfully one aside canny one preparatory up less therefore hello oh amid goodness."
 
-    {
-        "id": 2,
-        "title": "This is JSON headline 2",
-        "content": "This is JSON content 2",
-        "slug": "hello-world" 
     }
+    
 ]
