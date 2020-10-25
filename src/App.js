@@ -1,12 +1,12 @@
 import React from 'react';
 import { Header } from "./components/Header"
 import { Background } from "./components/Background" 
-import { AppPreview } from "./components/AppPreview"
 import { Review } from "./components/Review"
 import { UpperMobileSection } from './components/UpperMobileSection';
 import "./index.css"
 import { Subscribe } from './components/Subscribe';
 import Footer from './components/Footer';
+import { Feature } from './components/Feature';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Background />
       <Header />
       <UpperMobileSection />
-      <AppPreview />
+      <Feature />
       <Review />
       <Subscribe />
       <Footer />
