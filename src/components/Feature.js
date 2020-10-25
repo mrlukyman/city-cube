@@ -5,15 +5,25 @@ import { AppPreview } from "./AppPreview"
 import { FeatureText } from "./FeatureText"
 
 const Wrapper = styled(Container)`
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
 `
 
-export const Feature = (props) => (
+const FeatureWrapper = styled.div`
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+`
+
+export const Feature = () => (
     <Wrapper>
-        <FeatureText />
-        <AppPreview size="small" order={props.order}/>
+        <FeatureWrapper>
+            <FeatureText order="left" />
+            <AppPreview order="right" size="small" />
+        </FeatureWrapper>
+            <FeatureWrapper>
+                <FeatureText order="right" />
+                <AppPreview order="left" size="small" />
+            </FeatureWrapper>
     </Wrapper>
 )

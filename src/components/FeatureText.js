@@ -5,8 +5,8 @@ import Content from '../data/Content.json'
 import { Paragraph } from "./common/Paragraph"
 
 const order = {
-    order: "1",
-    order: "2"
+    left: "1",
+    right: "2"
 }
 
 const Wrapper = styled.div`
