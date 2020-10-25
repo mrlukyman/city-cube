@@ -1,14 +1,15 @@
 import React from "react"
-import Content from '../data/Content.json'
+import Content from '../data/Content'
 import "../index.css"
 
 export const Review = (props) => (
     <div>
-    {Content.map((contentDetail, index) => {
+    {Content.review.map((contentDetail) => {
         return <div>
             <p>{contentDetail.content}</p>
-            <h3>{contentDetail.title}</h3>
+            <h3>{contentDetail.name}</h3>
         </div>
     })}
     </div>
 )
+
