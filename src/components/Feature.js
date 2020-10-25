@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Container } from "./common/Container"
 import { AppPreview } from "./AppPreview"
-import { FeaturesText } from "./FeaturesText"
+import { FeatureText } from "./FeatureText"
 
 const Wrapper = styled(Container)`
     display: flex;
@@ -11,9 +11,9 @@ const Wrapper = styled(Container)`
     flex-wrap: wrap;
 `
 
-export const Features = (props) => (
+export const Feature = (props) => (
     <Wrapper>
-        <FeaturesText />
+        <FeatureText />
         <AppPreview size="small" order={props.order}/>
     </Wrapper>
 )
