@@ -7,6 +7,7 @@ import "./index.css"
 import { Subscribe } from './components/Subscribe';
 import { Footer } from './components/Footer';
 import { Feature } from './components/Feature';
+import content from './data/Content'
 
 function App() {
   return (
@@ -14,8 +15,12 @@ function App() {
       <Background />
       <Header />
       <UpperMobileSection />
-      <Feature screen="screen2" />
-      <Feature direction="reversed" screen="screen3" />
+      {content.features.map((feature, index) => <Feature 
+        title={feature.title} 
+        content={feature.content} 
+        screen={feature.screen} 
+        direction={index % 2 === 0 ? "normal" : "reversed"} 
+      />)}
       <Review />
       <Subscribe />
       <Footer />

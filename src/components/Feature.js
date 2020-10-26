@@ -18,7 +18,8 @@ const Wrapper = styled(Container)`
 
 export const Feature = (props) => (
     <Wrapper direction={props.direction}>
-        <FeatureText />
+        <FeatureText title={props.title} content={props.content} />
         <AppPreview screen={props.screen} size="small" />
     </Wrapper>
 )
+
