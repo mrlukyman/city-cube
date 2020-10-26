@@ -14,7 +14,11 @@ function App() {
     <div>
       <Background />
       <Header />
-      <UpperMobileSection />
+      {content.texts.map((text, index) => <UpperMobileSection 
+        title={text.title} 
+        content={text.content} 
+      />)}
+        
       {content.features.map((feature, index) => <Feature 
         title={feature.title} 
         content={feature.content} 

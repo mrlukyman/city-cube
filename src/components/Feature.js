@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { AppPreview } from "./AppPreview"
 import { Container } from "./common/Container"
-import { FeatureText } from "./FeatureText"
+import { ContentText } from "./ContentText"
 
 const direction = {
     normal: "row",
@@ -18,7 +18,14 @@ const Wrapper = styled(Container)`
 
 export const Feature = (props) => (
     <Wrapper direction={props.direction}>
-        <FeatureText title={props.title} content={props.content} />
+        <ContentText 
+        size="small" 
+        headingFontSize="small" 
+        paragraphFontSize="big"
+        hColor="black"
+        pColor="black"
+        title={props.title} 
+        content={props.content} />
         <AppPreview screen={props.screen} size="small" />
     </Wrapper>
 )
