@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import { Heading } from "./common/Heading"
 import { StoreIcons } from "./StoreIcons"
 import { ContentText } from "./ContentText"
 
@@ -18,6 +17,7 @@ export const IconText = (props) => (
         headingFontSize={props.headingFontSize} 
         pColor={props.pColor} 
         hColor={props.hColor} 
+        hPosition={props.hPosition}
         size={props.size} 
         title={props.title} 
         content={props.content}/>

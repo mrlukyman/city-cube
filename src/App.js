@@ -5,7 +5,7 @@ import { Review } from "./components/Review"
 import { UpperMobileSection } from './components/UpperMobileSection';
 import "./index.css"
 import { Subscribe } from './components/Subscribe';
-import { Footer } from './components/Footer';
+import { About } from './components/About';
 import { Feature } from './components/Feature';
 import content from './data/Content'
 
@@ -27,7 +27,12 @@ function App() {
       />)}
       <Review />
       <Subscribe />
-      <Footer />
+
+      <About 
+        title={content.about.title} 
+        content={content.about.content} 
+      />
+
     </div>
   );
 }

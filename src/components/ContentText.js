@@ -16,7 +16,7 @@ const Wrapper = styled.div`
 
 export const ContentText = (props) => (
     <Wrapper size={props.size}>
-        <Heading hColor={props.hColor} headingFontSize={props.headingFontSize}>{props.title}</Heading>
+        <Heading hPosition={props.hPosition} hColor={props.hColor} headingFontSize={props.headingFontSize}>{props.title}</Heading>
         <Paragraph pColor={props.pColor} paragraphFontSize={props.paragraphFontSize}>{props.content}</Paragraph>
     </Wrapper>
 )

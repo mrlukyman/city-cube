@@ -51,12 +51,12 @@ const data = {
     }
     ],
 
-    footer : [{
+    about : {
             "id":1,
             "title": "About Us",
             "content": "Wherever some that and kiwi that well dolphin alas this wantonly jeepers jeepers the mindfully one aside canny one preparatory up less therefore hello oh amid goodness."
     }
-    ]
+    
 }
 
 export default data
