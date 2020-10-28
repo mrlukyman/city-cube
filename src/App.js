@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from "./components/Header"
 import { Background } from "./components/Background" 
-import { Review } from "./components/Review"
+import { ReviewWrapper } from "./components/ReviewWrapper"
 import { UpperMobileSection } from './components/UpperMobileSection';
 import "./index.css"
 import { Subscribe } from './components/Subscribe';
@@ -25,7 +25,8 @@ function App() {
         screen={feature.screen} 
         direction={index % 2 === 0 ? "normal" : "reversed"} 
       />)}
-      <Review />
+
+      <ReviewWrapper />
       <Subscribe />
 
       <About 
