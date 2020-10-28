@@ -25,7 +25,8 @@ const Wrapper = styled.div`
 
 const StyledItalic = styled.i`
     color: #696969;
-    font-size: 23px;
+    font-size: 19px;
+    text-align: center;
 `
 
 const StyledName = styled.h2`
