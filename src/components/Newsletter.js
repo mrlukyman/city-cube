@@ -12,7 +12,8 @@ const Wrapper = styled(Container)`
     background-color: #5659CF;
     padding: 60px;
     border-radius: 30px;
-    margin: 50px 400px;
+    margin: 10% 400px 5% 400px;
+    
 `
 
 export const Newsletter = (props) => (
