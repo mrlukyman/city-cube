@@ -4,10 +4,11 @@ import { Background } from "./components/Background"
 import { ReviewWrapper } from "./components/ReviewWrapper"
 import { UpperMobileSection } from './components/UpperMobileSection';
 import "./index.css"
-import { Subscribe } from './components/Subscribe';
+import { Newsletter } from './components/Newsletter';
 import { About } from './components/About';
 import { Feature } from './components/Feature';
 import content from './data/Content'
+import { LowerIconText } from './components/LowerIconText';
 
 function App() {
   return (
@@ -27,8 +28,18 @@ function App() {
       />)}
 
       <ReviewWrapper />
-      <Subscribe />
-
+      {content.newsletter.map((newsletter, index) => <Newsletter
+        title={newsletter.title} 
+        content={newsletter.content} 
+      />)}
+      {content.texts.map((texts, index) => <LowerIconText
+        paragraphFontSize="small" 
+        headingFontSize="big" 
+        hColor="black" 
+        pColor="black" 
+        title={texts.title} 
+        content={texts.content} 
+      />)}
       <About 
         title={content.about.title} 
         content={content.about.content} 

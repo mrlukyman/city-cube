@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import { Container } from "./common/Container"
 import Rating from '@material-ui/lab/Rating';
 import { withStyles } from '@material-ui/core/styles';
 import FavoriteIcon from '@material-ui/icons/Favorite';
@@ -30,7 +29,7 @@ const StyledItalic = styled.i`
 `
 
 const StyledName = styled.h2`
-    text-transform= upper-case;
+    text-transform: upper-case;
 `
 
 export const Review = (props) => (

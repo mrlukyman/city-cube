@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { AboutIcons } from "./AboutIcons"
+import { SocialIcons } from "./SocialIcons"
 import { Container } from "./common/Container"
 import { ContentText } from "./ContentText"
 import "../index.css"
@@ -24,6 +24,6 @@ export const About = (props) => (
         pColor="black"
         title={props.title} 
         content={props.content} />
-        <AboutIcons />
+        <SocialIcons />
     </Wrapper>
 )

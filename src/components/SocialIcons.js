@@ -17,7 +17,7 @@ const Badge = styled.img`
     width: 65px;
 `
 
-export const AboutIcons = () => (
+export const SocialIcons = () => (
     <Wrapper>
         <Badge src={YTButton} alt="google-play"/>
         <Badge src={FBButton} alt="app-store"/>
