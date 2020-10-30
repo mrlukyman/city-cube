@@ -18,7 +18,7 @@ const size = {
 const Image = styled.img`
     display: flex;
     width: ${(props) => size[props.size]};
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding-top: 40px; 
 `
 
