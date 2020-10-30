@@ -30,20 +30,7 @@ export const About = (props) => (
             pColor="black"
             title={props.title} 
             content={props.content} />
-            <AboutIcons />
+            <SocialIcons />
         </Wrapper>
     </WrapperColor>
-    <Wrapper>
-        <ContentText 
-        size="normal" 
-        headingFontSize="big" 
-        paragraphFontSize="big"
-        hColor="black"
-        hPosition="center"
-        pColor="black"
-        title={props.title} 
-        content={props.content} />
-        <SocialIcons />
-    </Wrapper>
-main
 )
