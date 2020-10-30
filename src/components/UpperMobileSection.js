@@ -18,7 +18,6 @@ export const UpperMobileSection = (props) => (
         headingFontSize="big" 
         hColor="white" 
         pColor="white" 
-        size="big" 
         title={props.title} 
         content={props.content}/>
     </Wrapper>
