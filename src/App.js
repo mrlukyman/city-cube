@@ -9,6 +9,8 @@ import { About } from './components/About';
 import { Feature } from './components/Feature';
 import content from './data/Content'
 import { LowerIconText } from './components/LowerIconText';
+import { Motivation } from './components/Motivation';
+import { MotivationWrap } from './components/MotivationWrap'
 
 function App() {
   return (
@@ -19,7 +21,7 @@ function App() {
         title={text.title} 
         content={text.content} 
       />)}
-        
+      
       {content.features.map((feature, index) => <Feature 
         title={feature.title} 
         content={feature.content} 
@@ -27,11 +29,16 @@ function App() {
         direction={index % 2 === 0 ? "normal" : "reversed"} 
       />)}
 
-      <ReviewWrapper />
+      <MotivationWrap />
+
       {content.newsletter.map((newsletter, index) => <Newsletter
         title={newsletter.title} 
         content={newsletter.content} 
       />)}
+
+      
+      <ReviewWrapper />
+
       {content.texts.map((texts, index) => <LowerIconText
         paragraphFontSize="small" 
         headingFontSize="big" 
@@ -40,6 +47,7 @@ function App() {
         title={texts.title} 
         content={texts.content} 
       />)}
+
       <About 
         title={content.about.title} 
         content={content.about.content} 

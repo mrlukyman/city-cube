@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 const paragraphFontSize = {
+    extrasmall: "19px",
     small: "23px",
     big: "27px"
 }

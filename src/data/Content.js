@@ -24,6 +24,31 @@ const data = {
         },
     ],
 
+    motivation: [
+        {
+            "id": 1,
+            "title": "Cool Motivation 1",
+            "screen": "screen_m1",
+            "content": "Wherever some that and kiwi that well dolphin alas this wantonly jeepers jeepers the mindfully one aside canny one preparatory up less therefore hello oh amid goodness."
+        },
+
+        {
+            "id": 2,
+            "title": "Cool Motivation 2",
+            "screen": "screen_m2",
+            "content": "Wherever some that and kiwi that well dolphin alas this wantonly jeepers jeepers the mindfully one aside canny one preparatory up less therefore hello oh amid goodness."
+
+        },
+
+        {
+            "id": 3,
+            "title": "Cool Motivation 3",
+            "screen": "screen_m3",
+            "content": "Wherever some that and kiwi that well dolphin alas this wantonly jeepers jeepers the mindfully one aside canny one preparatory up less therefore hello oh amid goodness."
+
+        },
+    ],
+
     review : [{
             "id":1,
             "name": "Federico Viticci, MacStories",
