@@ -6,8 +6,8 @@ import { ContentText } from "./ContentText"
 const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
-    width: 40%;
-    margin-top: 8%;
+    max-width: 60vh; 
+    justify-content: center;
 `
 
 export const IconText = (props) => (

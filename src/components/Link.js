@@ -4,7 +4,8 @@ import styled from "styled-components"
 const StyledLink = styled.a`
     color: #ffffff;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.2rem;
+    margin-left: 30px;
     /* text-shadow: 0 0 10px black; */
     font-weight: 500;
 

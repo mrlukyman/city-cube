@@ -1,14 +1,15 @@
 import React from "react"
 import styled from "styled-components"
 import { SocialIcons } from "./SocialIcons"
-import { Container } from "./common/Container"
+import { Container } from "./common/GlobalStyles"
 import { ContentText } from "./ContentText"
 import { Back } from "./common/Backround"
-import "../index.css"
+
 
 
 const Wrapper = styled(Container)`
     display: flex;
+    max-width: 100%;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;

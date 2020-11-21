@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Review } from "./Review"
 import content from '../data/Content'
-import { Container } from "./common/Container"
+import { Container } from "./common/GlobalStyles"
 
 const Wrapper = styled(Container)`
     display: flex;

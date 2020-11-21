@@ -11,6 +11,10 @@ const size = {
 
 const Wrapper = styled.div`
     width: ${(props) => size[props.size]};
+
+    @media screen and (max-width: 960px) {
+        width: 100%;
+    }
 `
 
 

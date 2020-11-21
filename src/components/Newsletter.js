@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { ContentText } from "./ContentText"
-import { Container } from "./common/Container"
+import { Container } from "./common/GlobalStyles"
 import { Input } from "./Input"
 
 
@@ -12,8 +12,9 @@ const Wrapper = styled(Container)`
     background-color: #5659CF;
     padding: 60px;
     border-radius: 30px;
-    margin: 10% 400px 5% 400px;
-    
+    width: 100%;
+    max-width: 900px;
+    margin-top: 5%;
 `
 
 export const Newsletter = (props) => (

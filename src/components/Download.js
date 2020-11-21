@@ -1,6 +1,5 @@
 import React from "react"
 import Content from '../data/Content'
-import "../index.css"
 
 export const Download = (props) => (
     <div>

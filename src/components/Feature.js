@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { AppPreview } from "./AppPreview"
-import { Container } from "./common/Container"
+import { Container } from "./common/GlobalStyles"
 import { ContentText } from "./ContentText"
 
 const direction = {
@@ -14,6 +14,10 @@ const Wrapper = styled(Container)`
     justify-content: space-around;
     align-items: center;
     flex-direction: ${(props) => direction[props.direction]};
+
+    @media screen and (max-width: 960px) {
+        flex-direction: column;
+    }
 `
 
 export const Feature = (props) => (
@@ -22,8 +26,8 @@ export const Feature = (props) => (
         size="small" 
         headingFontSize="small" 
         paragraphFontSize="big"
-        hColor="black"
-        pColor="black"
+        hColor="white"
+        pColor="white"
         title={props.title} 
         content={props.content} />
         <AppPreview screen={props.screen} size="small" />

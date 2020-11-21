@@ -1,4 +1,4 @@
-import { Container } from "./common/Container"
+import { Container } from "./common/GlobalStyles"
 import React from "react"
 import styled from "styled-components"
 import { IconText } from "./IconText"
