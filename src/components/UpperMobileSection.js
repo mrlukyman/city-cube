@@ -8,13 +8,17 @@ import { Container } from "./common/GlobalStyles"
 const Wrapper = styled(Container)`
     display: flex;
     flex-direction: row;
+    width: 100%;
     justify-content: space-between; 
     flex-direction: row-reverse;
+    padding-top: 3rem;
     
     
     @media screen and (max-width: 960px) {
         flex-direction: column;
         align-items: center;
+        flex: 1;
+        padding-top: 1rem;
     }
 `
 

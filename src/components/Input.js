@@ -8,6 +8,10 @@ const Wrapper = styled.div`
     border: 1px solid #a9a9a9;
     background-color: white;
     border-radius: 50px;
+    @media screen and (max-width: 960px) {
+        height: 60px;  
+
+    }
 `
 
 const StyledInput = styled.input`
@@ -16,7 +20,6 @@ const StyledInput = styled.input`
     border: none;
     border-radius: 50px;
     padding-left: 5%;
-
 `
 
 const StyledButton = styled.button`
@@ -31,6 +34,11 @@ const StyledButton = styled.button`
     padding: 20px;
     margin: 5px;
     width: 20%;
+    @media screen and (max-width: 960px) {
+        font-size: 16px;
+        width: 150px;
+        padding: 12px;
+    }
 `
 
 export const Input = (props) => (

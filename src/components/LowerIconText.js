@@ -6,7 +6,6 @@ import { IconText } from "./IconText"
 const Wrapper = styled(Container)`
     display: flex;
     justify-content: center;
-    margin-bottom: 8%;
     text-align: center;
 `
 

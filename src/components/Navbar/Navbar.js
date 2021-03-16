@@ -15,7 +15,7 @@ import {
 
 
 const Navbar = () => {
-    const[isClicked, setIsClicked] = useState(false)
+    const [isClicked, setIsClicked] = useState(false)
 
     const handleClick = () => setIsClicked(!isClicked)
 

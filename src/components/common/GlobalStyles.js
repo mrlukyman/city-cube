@@ -30,6 +30,9 @@ export const GlobalStyle = createGlobalStyle`
     export const Container = styled.div`
         z-index: 1;
         max-width: 1024px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
         
         
 

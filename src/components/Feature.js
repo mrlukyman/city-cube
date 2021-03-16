@@ -14,22 +14,30 @@ const Wrapper = styled(Container)`
     justify-content: space-around;
     align-items: center;
     flex-direction: ${(props) => direction[props.direction]};
+    padding: 2rem 12px;
 
     @media screen and (max-width: 960px) {
         flex-direction: column;
+        text-align: center;
     }
+`;
+
+const TextWrapper = styled.div`
+    padding-bottom: 40px;
 `
 
 export const Feature = (props) => (
     <Wrapper direction={props.direction}>
-        <ContentText 
-        size="small" 
-        headingFontSize="small" 
-        paragraphFontSize="big"
-        hColor="white"
-        pColor="white"
-        title={props.title} 
-        content={props.content} />
+       <TextWrapper>
+            <ContentText 
+            size="normal" 
+            headingFontSize="small" 
+            paragraphFontSize="small"
+            hColor="white"
+            pColor="white"
+            title={props.title} 
+            content={props.content} />
+       </TextWrapper>
         <AppPreview screen={props.screen} size="small" />
     </Wrapper>
 )

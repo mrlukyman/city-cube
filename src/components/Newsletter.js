@@ -9,12 +9,15 @@ const Wrapper = styled(Container)`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     background-color: #5659CF;
-    padding: 60px;
     border-radius: 30px;
-    width: 100%;
     max-width: 900px;
-    margin-top: 5%;
+    padding: 3.5rem;
+
+    @media screen and (max-width: 960px) {
+        
+    }
 `
 
 export const Newsletter = (props) => (

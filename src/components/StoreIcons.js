@@ -8,7 +8,7 @@ const Wrapper = styled.div`
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    margin-top: 8%;
+    padding: 1rem;
 
     @media screen and (max-width: 960px) {
         justify-content: space-around;

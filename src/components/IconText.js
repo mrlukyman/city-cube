@@ -6,8 +6,15 @@ import { ContentText } from "./ContentText"
 const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
-    max-width: 60vh; 
+    max-width: 500px;
     justify-content: center;
+
+
+    @media screen and (max-width: 960px) {
+        text-align: center;
+        padding-bottom: 1rem;
+
+  }
 `
 
 export const IconText = (props) => (

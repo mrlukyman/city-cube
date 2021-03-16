@@ -66,11 +66,6 @@ export const NavMenu = styled.ul`
 `
 
 export const NavItem = styled.li`
-    border-bottom: 2px solid transparent;
-
-    &:hover {
-        border-bottom: 2px solid #48D9CA;
-    }
 
     @media screen and (max-width: 960px) {
         display: flex;

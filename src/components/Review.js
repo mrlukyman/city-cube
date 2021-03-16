@@ -18,8 +18,10 @@ const StyledRating = withStyles({
 const Wrapper = styled(Container)`
     display: flex;
     flex-direction: column;
-    width: 40%;
+    flex: wrap;
+    max-width: 400px;
     align-items: center;
+    padding: 5rem 12px;
 `
 
 const StyledItalic = styled.i`
