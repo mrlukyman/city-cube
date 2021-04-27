@@ -20,4 +20,8 @@ export const Heading = styled.h1`
     color: ${(props) => hColor[props.hColor]};
     font-weight: 800;
     font-size: ${(props) => headingFontSize[props.headingFontSize]};
+
+    @media screen and (max-width: 960px) {
+     font-size: 35px;   
+    }
 `

@@ -1,4 +1,4 @@
-import { Container } from "./common/Container"
+import { Container } from "./common/GlobalStyles"
 import React from "react"
 import styled from "styled-components"
 import { IconText } from "./IconText"
@@ -6,7 +6,6 @@ import { IconText } from "./IconText"
 const Wrapper = styled(Container)`
     display: flex;
     justify-content: center;
-    margin-bottom: 8%;
     text-align: center;
 `
 

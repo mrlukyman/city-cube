@@ -10,8 +10,8 @@ const Wrapper = styled.div`
 `
 
 const StyledLogo = styled.img`
-    width: 50px;
-    height: 50px;
+    max-width: 50px;
+    height: auto;
 `
 const WhiteHeading = styled.h3`
     color: white;

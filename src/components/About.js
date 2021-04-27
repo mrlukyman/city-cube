@@ -1,36 +1,29 @@
 import React from "react"
 import styled from "styled-components"
 import { SocialIcons } from "./SocialIcons"
-import { Container } from "./common/Container"
 import { ContentText } from "./ContentText"
-import { Back } from "./common/Backround"
-import "../index.css"
 
-
-const Wrapper = styled(Container)`
+const Wrapper = styled.div`
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    text-align: center;
     flex-direction: column;
-`
-
-const WrapperColor = styled(Back)`
-
+    padding: 30px 0;
+    width: 100%;
+    background-color: #494949;
 `
 
 export const About = (props) => (
-    <WrapperColor>
         <Wrapper>
             <ContentText 
-            size="normal" 
+            size="small" 
             headingFontSize="big" 
             paragraphFontSize="big"
-            hColor="black"
+            hColor="white"
             hPosition="center"
-            pColor="black"
+            pColor="white"
             title={props.title} 
             content={props.content} />
             <SocialIcons />
         </Wrapper>
-    </WrapperColor>
 )

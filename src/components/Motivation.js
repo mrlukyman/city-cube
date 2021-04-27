@@ -4,11 +4,10 @@ import { ContentText } from "./ContentText"
 
 const Wrapper = styled.div`
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    justify-content: space-round;
-    margin-top: 10%;
-    max-width: 25%;
+    max-width: 400px;
+    text-align: center;
+    padding: 2rem 1rem;
 `
 
 const Badge = styled.img`
@@ -18,12 +17,11 @@ const Badge = styled.img`
 export const Motivation = (props) => (
         <Wrapper>
             <ContentText 
-            size="medium" 
             headingFontSize="medium" 
             paragraphFontSize="extrasmall"
-            hColor="black"
+            hColor="white"
             hPosition="center"
-            pColor="black"
+            pColor="white"
             title={props.title} 
             content={props.content} />
         </Wrapper>

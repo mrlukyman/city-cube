@@ -8,11 +8,20 @@ const Wrapper = styled.div`
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    margin-top: 8%;
+    padding: 1rem;
+
+    @media screen and (max-width: 960px) {
+        justify-content: space-around;
+    }
 `
 
 const Badge = styled.img`
-    height: 4.6875em;
+    height: 4.6875rem;
+
+    @media screen and (max-width: 960px) {
+        height: 3.5rem;
+    }
+
 `
 
 export const StoreIcons = () => (

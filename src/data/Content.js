@@ -22,6 +22,20 @@ const data = {
             "content": "Wherever some that and kiwi that well dolphin alas this wantonly jeepers jeepers the mindfully one aside canny one preparatory up less therefore hello oh amid goodness."
 
         },
+        {
+            "id": 1,
+            "title": "Cool Feature 2",
+            "screen": "screen3",
+            "content": "Wherever some that and kiwi that well dolphin alas this wantonly jeepers jeepers the mindfully one aside canny one preparatory up less therefore hello oh amid goodness."
+
+        },
+        {
+            "id": 1,
+            "title": "Cool Feature 2",
+            "screen": "screen3",
+            "content": "Wherever some that and kiwi that well dolphin alas this wantonly jeepers jeepers the mindfully one aside canny one preparatory up less therefore hello oh amid goodness."
+
+        },
     ],
 
     motivation: [
@@ -47,6 +61,7 @@ const data = {
             "content": "Wherever some that and kiwi that well dolphin alas this wantonly jeepers jeepers the mindfully one aside canny one preparatory up less therefore hello oh amid goodness."
 
         },
+        
     ],
 
     review : [{

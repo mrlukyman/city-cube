@@ -3,7 +3,7 @@ import styled from "styled-components"
 import Rating from '@material-ui/lab/Rating';
 import { withStyles } from '@material-ui/core/styles';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-import "../index.css"
+import { Container } from "./common/GlobalStyles"
 
 const StyledRating = withStyles({
     
@@ -15,21 +15,24 @@ const StyledRating = withStyles({
   })(Rating);
 
 
-const Wrapper = styled.div`
+const Wrapper = styled(Container)`
     display: flex;
     flex-direction: column;
-    width: 40%;
+    flex: wrap;
+    max-width: 400px;
     align-items: center;
+    padding: 5rem 12px;
 `
 
 const StyledItalic = styled.i`
-    color: #696969;
+    color: white;
     font-size: 19px;
     text-align: center;
 `
 
 const StyledName = styled.h2`
     text-transform: upper-case;
+    color: #D9D9D9;
 `
 
 export const Review = (props) => (
