@@ -8,15 +8,15 @@ const Wrapper = styled.div`
     align-items: center;
     text-align: center;
     flex-direction: column;
-    padding: 0 12px;
-    max-width: 100%;
+    padding: 30px 0;
+    width: 100%;
     background-color: #494949;
 `
 
 export const About = (props) => (
         <Wrapper>
             <ContentText 
-            size="normal" 
+            size="small" 
             headingFontSize="big" 
             paragraphFontSize="big"
             hColor="white"

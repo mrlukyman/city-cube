@@ -30,7 +30,6 @@ const ContentWrapper = styled.div`
 
 const FeatureWrapper = styled(Container)`
   padding-top: 6rem;
-
 `
 
 const MotivationWrapper = styled(Container)`
@@ -46,6 +45,7 @@ const MotivationWrapper = styled(Container)`
 const RatingWrapper = styled(Container)`
   display: flex;
   flex-direction: row;
+  align-items: center;
 
   
   @media screen and (max-width: 960px) {
@@ -62,17 +62,18 @@ function App() {
         <Navbar />
       </NavbarWrapper>
       <ContentWrapper>
-        {/* <Background /> */}
-        {/* {content.texts.map((text, index) => <UpperMobileSection 
+        <Background />
+        {content.texts.map((text, index) => <UpperMobileSection 
           title={text.title} 
           content={text.content} 
-          />)} */}
+          />)}
         <FeatureWrapper>
           {content.features.map((feature, index) => <Feature 
             title={feature.title} 
             content={feature.content} 
             screen={feature.screen} 
-            direction={index % 2 === 0 ? "normal" : "reversed"} 
+            direction={index % 2 === 0 ? "normal" : "reversed"}
+            float={index % 2 === 0 ? "left" : "right"}
           />)}
         </FeatureWrapper>
         <MotivationWrapper>
@@ -96,14 +97,14 @@ function App() {
           />)}
         </RatingWrapper>
 
-        {/* {content.texts.map((texts, index) => <LowerIconText
+         {content.texts.map((texts, index) => <LowerIconText
           paragraphFontSize="small" 
           headingFontSize="big" 
           hColor="white" 
           pColor="white" 
           title={texts.title} 
           content={texts.content} 
-        />)} */}
+        />)}
 
         <About 
           title={content.about.title} 

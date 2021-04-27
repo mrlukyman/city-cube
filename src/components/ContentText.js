@@ -9,8 +9,14 @@ const size = {
     big: "100%"
 }
 
+const float = {
+    right: "right",
+    left: "left"
+}
+
 const Wrapper = styled.div`
     max-width: ${(props) => size[props.size]};
+    float: ${(props) => float[props.float]};
 
     @media screen and (max-width: 960px) {
         max-width: 400px;
@@ -20,7 +26,9 @@ const Wrapper = styled.div`
 
 
 export const ContentText = (props) => (
-    <Wrapper size={props.size}>
+    <Wrapper 
+    size={props.size}
+    float={props.float}>
         <Heading hPosition={props.hPosition} hColor={props.hColor} headingFontSize={props.headingFontSize}>{props.title}</Heading>
         <Paragraph pPosition={props.pPosition} pColor={props.pColor} paragraphFontSize={props.paragraphFontSize}>{props.content}</Paragraph>
     </Wrapper>

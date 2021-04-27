@@ -27,10 +27,12 @@ const TextWrapper = styled.div`
 `
 
 export const Feature = (props) => (
-    <Wrapper direction={props.direction}>
+    <Wrapper 
+        direction={props.direction}>
        <TextWrapper>
             <ContentText 
             size="normal" 
+            float={props.float}
             headingFontSize="small" 
             paragraphFontSize="small"
             hColor="white"
